@@ -1,0 +1,15 @@
+#define TB_loadingScreen_imagePath "tb_loadingScreen.jpg"
+//#define TB_loadingScreen_imagePath "\a3\ui_f\data\Logos\arma3_expansion_ca.paa"
+
+onLoadName="Open Ground";
+author="Ch3v4l13r & Leon (TacBF Team)";
+onLoadMission= "Attack and Secure [M-40]. Rural. Highway. Towns.  US (Army) -vs- RU. Light to heavy vehicles, transport helis, 1x attack heli.";
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+
+#include "tb_mountedWeapons.hpp"
+#include "tb_vehicleInit.hpp"
+
+#include "tb_vehicleMags.hpp"
